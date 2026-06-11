@@ -7,6 +7,8 @@ import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import github from "../assets/github.png";
+import git from "../assets/git.png";
+import cpp from "../assets/C++.png";
 
 function Skills() {
   const technicalSkills = [
@@ -20,16 +22,16 @@ function Skills() {
   ];
 
   const skillIcons = [
-    { name: "HTML", icon: "/src/assets/html.png" },
-    { name: "CSS", icon: "/src/assets/css.png" },
-    { name: "JavaScript", icon: "/src/assets/js.png" },
-    { name: "React", icon: "/src/assets/react.png" },
-    { name: "Tailwind", icon: "/src/assets/tailwind.png" },
-    { name: "Node.js", icon: "/src/assets/node.png" },
-    { name: "MongoDB", icon: "/src/assets/mongo.png" },
-    { name: "GitHub", icon: "/src/assets/github.png" },
-    { name: "Git", icon: "/src/assets/git.png" },
-    { name: "C++", icon: "/src/assets/C++.png" },
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
+    { name: "React", icon: react },
+    { name: "Tailwind", icon: tailwind },
+    { name: "Node.js", icon: node },
+    { name: "MongoDB", icon: mongo },
+    { name: "GitHub", icon: github },
+    { name: "Git", icon: git },
+    { name: "C++", icon: cpp },
   ];
 
   const beyondTech = [
